@@ -1,0 +1,22 @@
+   let str = 'This is a sunny day';
+
+        //Step 1
+        let str1 = str.split("");
+        console.log(str1);
+        let str2 = str1.reverse();
+        console.log(str2);
+        let str3 = str2.join("");
+        console.log(str3);
+
+        //Step 2
+        let str4 = str3.split(" ");
+        console.log(str4);
+        let str5 = str4.reverse();
+        console.log(str5);
+        let str6 = str5.join(" ");
+        console.log(str6);
+
+        //else
+        // let str1 = str.split("").reverse().join("")
+        // let str2 = str1.split(" ").reverse().join(" ")
+        // console.log(str2);
